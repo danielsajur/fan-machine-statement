@@ -7,7 +7,7 @@ public class Application {
   public static void main(String[] args) {
     usages();
     var fan = new FanMachine();
-    System.exit(fan.start());
+    fan.run();
   }
 
   private static void usages() {

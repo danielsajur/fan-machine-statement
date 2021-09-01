@@ -1,5 +1,3 @@
 package com.fanmachine.domain;
 
-public interface Fan {
-    int start();
-}
+public interface Fan { }
